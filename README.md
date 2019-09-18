@@ -3,7 +3,7 @@
 ## Description
 
 Data logging script for Measurement Computing PMD-1208FS. It was designed to capture analog outputs from a variety of air quality instruments for the [Sustainable Atmospheres Research Lab](https://star.research.pdx.edu/).
-The digital value from the PMD is converted back to the original analog sigal.
+The digital value from the PMD is converted back to the original analog signal.
 This analog signal can then be converted into a measurement concentration from a variety of federal reference methods.
 The script samples on the order of milliseconds, and aggregates based on the `time_resolution` variable. 
 
